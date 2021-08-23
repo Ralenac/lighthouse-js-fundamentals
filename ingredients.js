@@ -6,3 +6,13 @@ while (i < ingredients.length) {
   console.log(ingredients[i]);
   i++ ;
 }
+
+console.log('List of ingredients for Banana Bread')
+for (let i = 0; i < ingredients.length; i++) {
+  console.log(ingredients[i])
+}
+
+console.log('List of ingredients for Banana Bread-backwards')
+for (let i = ingredients.length - 1; i >= 0; i--) {
+  console.log(ingredients[i]);
+} 
